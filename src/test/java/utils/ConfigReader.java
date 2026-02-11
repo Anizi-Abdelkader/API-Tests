@@ -5,6 +5,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
+
+    //méthode pour appeler la config dans le fichier config.properties
     private static Properties properties = new Properties();
 
     static {

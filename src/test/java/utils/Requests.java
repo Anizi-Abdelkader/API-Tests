@@ -12,6 +12,8 @@ import static io.restassured.http.ContentType.JSON;
 import static utils.LoadJsonFileToObject.loadPayload;
 
 public class Requests {
+
+    // cette methode pour faire le Post de l'objet construit par la méthode LoadPayload
     public static Response post(HashMap<String, String> dataToAdd) throws IOException, ParseException {
 
         Object obj = loadPayload(dataToAdd);

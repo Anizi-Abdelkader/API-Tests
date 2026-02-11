@@ -11,6 +11,7 @@ import java.util.HashMap;
 
 public class LoadJsonFileToObject {
 
+    // cette méthode pour charger le continue de fichier payload et les donnés dans feature file pour construire un Objet de type Json
     public static <T> T loadPayload(HashMap<String, String> dataToAdd) throws IOException, ParseException {
         JSONParser parser = new JSONParser();
         JSONObject jsonObject = (JSONObject) parser.parse(new FileReader("src/test/resources/payload/payload.json"));
