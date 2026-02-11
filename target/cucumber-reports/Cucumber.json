@@ -1,0 +1,36 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2026-02-11T10:05:32.879Z",
+        "line": 4,
+        "name": "xxxx",
+        "description": "",
+        "id": "xxx;xxxx",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6485000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "xxxx",
+            "match": {
+              "location": "StepDef.testSteps.xxxx()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "xxx",
+    "description": "",
+    "id": "xxx",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": []
+  }
+]

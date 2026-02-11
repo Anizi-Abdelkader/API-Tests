@@ -17,9 +17,6 @@ public class Requests {
         Object obj = loadPayload(dataToAdd);
         System.out.println("ready to post the object" + obj);
         Map<String,Object> headerMap = new HashMap<String,Object>();
-        headerMap.put("X-Origin-Brand","EP");
-        headerMap.put("X-Requestor-Channel","TESTAUTO");
-        headerMap.put("X-Requestor-Screen","e2e");
         return RestAssured.given().headers(headerMap).contentType(JSON)
                 .accept(JSON).
                 body(obj)
